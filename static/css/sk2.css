@@ -1,0 +1,122 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.no-dot {
+  list-style-type: none;
+}
+
+header a,
+header h1,
+header h2,
+header h3 {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+.flex-right {
+  display: flex;
+  margin-left: auto;
+  vertical-align: baseline;
+}
+
+.pagination li,
+header nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.subtitle {
+  margin-left: 5px;
+}
+
+.main,
+header,
+footer {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.card h3,
+.card p {
+  margin-block-end: 5px;
+  margin-block-start: 5px;
+}
+
+.card-box {
+  width: 100%;
+}
+
+.card-date {
+  text-align: right;
+}
+
+.toc-box {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+toc {
+  display: none;
+}
+
+toc li {
+  list-style-type: none;
+}
+
+toc ul {
+  margin-left: 0px;
+  padding-left: 0;
+}
+
+toc ul ul {
+  margin-left: 0px;
+  padding-left: 15px;
+}
+
+toc ul ul ul {
+  margin-left: 0px;
+  padding-left: 30px;
+}
+
+toc ul ul ul ul {
+  margin-left: 0px;
+  padding-left: 45px;
+}
+
+toc ul ul ul ul ul {
+  margin-left: 0px;
+  padding-left: 60px;
+}
+
+toc ul ul ul ul ul ul {
+  margin-left: 0px;
+  padding-left: 75px;
+}
+
+.pad-l-5px {
+  padding-left: 5px;
+}
+
+.pad-r-5px {
+  padding-right: 5px;
+}

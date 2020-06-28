@@ -1,0 +1,23 @@
+baseURL = "https://sk2.jsiu.dev"
+theme   = "sk2"
+title   = "SK2"
+
+enableGitInfo = true
+#paginate      = 24
+relativeURLs  = true
+
+[Params]
+startdate = "2012-12-02"
+subtitle  = "A Hugo Themes"
+summary   = true
+toc       = true
+
+[menu]
+	[[menu.main]]
+	identifier = "about"
+	name       = "About"
+	url        = "/about/"
+	weight     = 10
+	[[menu.main]]
+	name = "Tags"
+	url  = "/tags/"
