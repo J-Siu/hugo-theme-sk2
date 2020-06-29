@@ -1,14 +1,12 @@
 ## Hugo Theme - SK2 (Skeleton 2)
 
----
-
 Fully functional basic Hugo theme build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
 
 ### Demo
 
 SK2 demo site: https://sk2.jsiu.dev/
 
-Site content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
+Example site content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
 
 ### Usage
 
@@ -64,17 +62,17 @@ hugo server -D --bind :: \
 
 ```toml
 baseURL = "https://sk2.jsiu.dev"
-title = ""
+title = "SK2"
 copyright = ""
 
 enableGitInfo = false
 relativeURLs = true
-theme = "hugo-theme-sk2"
+theme = "sk2"
 
 [Params]
-maintype = ""
+maintype = "post"
 startdate = "2012-12-02"
-subtitle = ""
+subtitle = "A Hugo Theme"
 summary = true
 toc = true
 ```

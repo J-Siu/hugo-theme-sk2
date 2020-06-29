@@ -4,7 +4,13 @@ title   = "SK2"
 
 enableGitInfo = true
 #paginate      = 24
-relativeURLs  = true
+DefaultContentLanguage = "en"
+author                 = "Steve Francia"
+copyright              = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+enableInlineShortcodes = true
+languageCode           = "en"
+paginate               = 3
+relativeURLs           = true
 
 [Params]
 startdate = "2012-12-02"
