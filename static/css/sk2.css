@@ -70,6 +70,16 @@ footer {
   text-align: right;
 }
 
+.pad-l-5px {
+  padding-left: 5px;
+}
+
+.pad-r-5px {
+  padding-right: 5px;
+}
+
+/* toc */
+
 .toc-box {
   border: 1px solid black;
   padding: 5px;
@@ -91,32 +101,4 @@ toc ul {
 toc ul ul {
   margin-left: 0px;
   padding-left: 15px;
-}
-
-toc ul ul ul {
-  margin-left: 0px;
-  padding-left: 30px;
-}
-
-toc ul ul ul ul {
-  margin-left: 0px;
-  padding-left: 45px;
-}
-
-toc ul ul ul ul ul {
-  margin-left: 0px;
-  padding-left: 60px;
-}
-
-toc ul ul ul ul ul ul {
-  margin-left: 0px;
-  padding-left: 75px;
-}
-
-.pad-l-5px {
-  padding-left: 5px;
-}
-
-.pad-r-5px {
-  padding-right: 5px;
 }
