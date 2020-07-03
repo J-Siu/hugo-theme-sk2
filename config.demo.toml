@@ -4,7 +4,12 @@ title   = "SK2"
 
 [Params]
 mainSections = "post"
-startdate = "2012-12-02"
-subtitle = "A Hugo Theme"
-summary = true
-toc = true
+startdate    = "2012-12-02"
+subtitle     = "A Hugo Theme"
+summary      = true
+toc          = true
+
+[markup.tableOfContents]
+endLevel   = 6
+ordered    = false
+startLevel = 1
