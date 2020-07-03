@@ -1,6 +1,6 @@
 ## Hugo Theme - SK2 (Skeleton 2)
 
-Fully functional basic Hugo theme build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
+Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
 
 ### Demo
 
@@ -42,35 +42,33 @@ hugo server -D --bind :: \
 --disableFastRender \
 --theme sk2 \
 --themesDir ../../ \
---config config.toml,../config.sk2.toml \
+--config config.toml,../config.demo.toml \
 --verbose
 ```
 
 ### Features
 
-- Card list
-- Collapsible table of content
-- Copyright start year
-- Git modify date
-- Horizontal menu
-- Horizontal pagination
-- Minimum css
-- Sub-title
-- Summary
+- [x] Card list
+- [x] Collapsible table of content
+- [x] Copyright start year
+- [x] Git modify date
+- [x] Horizontal menu
+- [x] Horizontal pagination
+- [x] Minimum css
+- [x] Sub-title
+- [x] Summary
 
 ### Site Config
 
+`config.demo.toml`
+
 ```toml
 baseURL = "https://sk2.jsiu.dev"
-title = "SK2"
-copyright = ""
-
-enableGitInfo = false
-relativeURLs = true
-theme = "sk2"
+theme   = "sk2"
+title   = "SK2"
 
 [Params]
-maintype = "post"
+mainSections = "post"
 startdate = "2012-12-02"
 subtitle = "A Hugo Theme"
 summary = true
@@ -89,3 +87,9 @@ toc = true
 
 - 1.0.0
   - Initial Commit
+- 1.0.1
+  - Add images
+  - Demo config
+  - Fix css
+  - README.md update
+  - Use site.Params.mainSections
