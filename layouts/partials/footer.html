@@ -1,14 +1,14 @@
 <footer class="flex">
 
-	{{if .Site.Copyright}}
-		<div class="pad-r-5px">{{.Site.Copyright}}</div>
+	{{if site.Copyright}}
+		<div class="pad-r-5px">{{site.Copyright}}</div>
 	{{else}}
 		<div class="pad-r-5px">
 		©
-		{{with .Site.Params.startdate}}
+		{{with site.Params.startdate}}
 			{{dateFormat "2006" .}}-
 		{{- end}}
-		{{- now.Format "2006"}} {{.Site.Title}}
+		{{- now.Format "2006"}} {{site.Title}}
 		</div>
 	{{end}}
 	<div class="pad-r-5px">Power by <a href="https://gohugo.io">Hugo</a></div>
@@ -17,6 +17,6 @@
 </footer>
 
 <!--js-->
-{{with .Site.Menus.main}}
+{{with site.Menus.main}}
 <script src="{{relLangURL ""}}js/sk2.js"></script>
 {{end}}

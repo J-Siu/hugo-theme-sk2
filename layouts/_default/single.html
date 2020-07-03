@@ -1,10 +1,14 @@
 {{define "main"}}
 <div class="main">
 
-	{{with .Title}} <heading>
+	<!--Title-->
+	{{with .Title}}
+	<heading>
 		<h1>{{.}}</h1>
-	</heading> {{end}}
+	</heading>
+	{{end}}
 
+	<!--TOC-->
 	{{if .Site.Params.toc}}
 	<div class="toc-box">
 		<div class="collapsible">Table of Content</div>
@@ -12,10 +16,13 @@
 	</div>
 	{{end}}
 
+	<!--Content-->
 	{{with .Content}}<content>{{.}}</content>{{end}}
+
+	<!--Date-->
 	{{with .Lastmod}}<div>Update: {{dateFormat "2006-01-02" .}}</div>{{end}}
 
-	<!--tags-->
+	<!--Tag-->
 	<div class="flex">
 		<div class="pad-r-5px">Tags:</div>
 		{{range (.GetTerms "tags")}}
@@ -23,15 +30,17 @@
 		{{end}}
 	</div>
 
-	<!--prev/next-->
+	<!--Prev/Next-->
 	{{if or .PrevInSection .NextInSection}}
 	<div class="flex">
-		{{with .PrevInSection}}<a href="{{.RelPermalink}}"><< {{.Title}}</a> {{end}}
-		{{with .NextInSection}}<a class="flex-right" href="{{.RelPermalink}}">{{.Title}} >></a>{{end}}
+		{{with .PrevInSection}}<a href="{{.RelPermalink}}">
+			<< {{.Title}}</a> {{end}}
+				{{with .NextInSection}}<a class="flex-right" href="{{.RelPermalink}}">{{.Title}} >></a>{{end}}
 	</div>
 	{{end}}
-	<!--related-->
-	{{$related := .Site.RegularPages.Related . | first 5}}
+
+	<!--Related-->
+	{{$related := site.RegularPages.Related . | first 5}}
 	{{with $related}}
 	<h3>See Also</h3>
 	<ul>

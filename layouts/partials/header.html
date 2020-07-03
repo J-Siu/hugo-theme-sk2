@@ -1,16 +1,16 @@
 <header class="flex">
 
-<div><a href="{{relLangURL ""}}"><b>{{.Site.Title}}</b></a></div>
+<div><a href="{{relLangURL ""}}"><b>{{site.Title}}</b></a></div>
 
-{{with .Site.Params.subtitle}}<div class="subtitle">{{.}}</div>{{end}}
+{{with site.Params.subtitle}}<div class="subtitle">{{.}}</div>{{end}}
 
-{{if .Site.Menus}}
+{{if site.Menus}}
 <!--
 <button type="button" class="collapsible">Menu</button>
 -->
 <nav class="flex-right">
 	{{$currentPage := .}}
-	{{range .Site.Menus.main}}
+	{{range site.Menus.main}}
 		{{if .HasChildren}}
 		<li class="{{if $currentPage.HasMenuCurrent "main" .}}active{{end}}">
 			<a href="#">

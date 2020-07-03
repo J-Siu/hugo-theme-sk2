@@ -16,7 +16,7 @@
 	{{end}}
 
 	<!--$paginator-->
-	{{$paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections)}}
+	{{$paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)}}
 
 	<!--pagination-->
 	{{template "_internal/pagination.html" .}}
@@ -29,7 +29,7 @@
 				<h3>{{.Title}}</h3>
 			</a>
 			{{with .Lastmod}}<div class="card-date">{{dateFormat "2006-01-02" .}}</div>{{end}}
-			{{if .Site.Params.summary}}<div>{{.Summary}}</div>{{end}}
+			{{if site.Params.summary}}<div>{{.Summary}}</div>{{end}}
 		</div>
 		{{end}}
 	</section>
