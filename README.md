@@ -4,9 +4,7 @@ Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-
 
 ### Demo
 
-SK2 demo site: https://sk2.jsiu.dev/
-
-Example site content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample)
+SK2 demo site: https://sk2.jsiu.dev/ with content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
 
 ### Usage
 
@@ -77,7 +75,9 @@ toc = true
 
 ### Repository
 
-- [hugo-theme-sk2](https://github.com/J-Siu/hugo-theme-sk2)
+- [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk3) Fully functional basic Hugo theme with no css, no javascript.
+- [hugo-theme-sk2](https://github.com/J-Siu/hugo-theme-sk3) Fully functional basic Hugo theme with minimum css.
+- [hugo-theme-sk3](https://github.com/J-Siu/hugo-theme-sk3) Full feature Hugo theme with Google AdSense support.
 
 ### Contributors
 
