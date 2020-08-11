@@ -13,7 +13,7 @@ SK2 demo site: https://sk2.jsiu.dev/ with content from [hugoBasicExample](https:
     In site directory:
 
     ```sh
-    git clone https://github.com/J-Siu/hugo-theme-sk2 theme/sk2
+    git clone https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
     ```
 
 - Submodule
@@ -21,7 +21,7 @@ SK2 demo site: https://sk2.jsiu.dev/ with content from [hugoBasicExample](https:
     In site directory:
 
     ```sh
-    git submodule add https://github.com/J-Siu/hugo-theme-sk2 theme/sk2
+    git submodule add https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
     ```
 
 ### Testing
