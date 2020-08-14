@@ -12,6 +12,7 @@ Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-
 - [Testing](#testing)
 - [Features](#features)
 - [Site Config](#site-config)
+- [Default Favicon](#default-favicon)
 - [Contributors](#contributors)
 - [Change Log](#change-log)
 
@@ -96,6 +97,24 @@ summary = true
 toc = true
 ```
 
+### Default Favicon
+
+SK themes come with default favicon.
+
+Disable default favicon:
+
+```sh
+# At Hugo site root
+touch static/favicon.ico
+```
+
+Override default favicon:
+
+```sh
+# At Hugo site root
+cp <your favicon.ico> static/favicon.ico
+```
+
 ### Contributors
 
 - [John Sing Dao Siu](https://github.com/J-Siu)
@@ -110,3 +129,7 @@ toc = true
   - Fix css
   - README.md update
   - Use site.Params.mainSections
+- 1.0.2
+  - Add default favicon.ico
+  - Change toc start level to 1
+  - Update README.md
