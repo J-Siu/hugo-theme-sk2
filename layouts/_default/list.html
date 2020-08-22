@@ -16,10 +16,12 @@
 	{{end}}
 
 	<!--$paginator-->
-	{{$paginator := .Paginator}}
 	{{if .IsHome}}
-	{{$paginator = .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)}}
+	{{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections))}}
+	{{else}}
+	{{.Scratch.Set "Paginator" .Paginator}}
 	{{end}}
+	{{$paginator:=(.Scratch.Get "Paginator")}}
 
 	<!--pagination-->
 	{{template "_internal/pagination.html" .}}
