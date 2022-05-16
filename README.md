@@ -1,9 +1,10 @@
-## Hugo Theme - SK2 (Skeleton 2)
+# Hugo Theme - SK2 (Skeleton 2) [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
 Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
 
 ---
 
+### Table Of Content
 <!-- TOC -->
 
 - [SK Themes](#sk-themes)
