@@ -2,6 +2,10 @@ baseURL = "https://sk2.jsiu.dev"
 theme   = "sk2"
 title   = "SK2"
 
+[module]
+[module.hugoVersion]
+min = "0.148.0"
+
 [Params]
 mainSections = "post"
 startdate    = "2012-12-02"
