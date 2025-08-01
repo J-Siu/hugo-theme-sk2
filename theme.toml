@@ -3,7 +3,7 @@ features    = []
 homepage    = "https://sk2.jsiu.dev/"
 license     = "MIT"
 licenselink = "https://github.com/J-Siu/hugo-theme-sk2/blob/master/LICENSE"
-min_version = "0.65.0"
+min_version = "0.140.0"
 name        = "SK2"
 tags        = ["blog", "clean", "minimal", "personal", "simple"]
 

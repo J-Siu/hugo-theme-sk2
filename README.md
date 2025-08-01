@@ -7,6 +7,7 @@ Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-
 ### Table Of Content
 <!-- TOC -->
 
+- [Table Of Content](#table-of-content)
 - [SK Themes](#sk-themes)
 - [Demo](#demo)
 - [Usage](#usage)
@@ -134,3 +135,5 @@ cp <your favicon.ico> static/favicon.ico
   - Add default favicon.ico
   - Change toc start level to 1
   - Update README.md
+- 1.0.3
+  - Update to Hugo v0.148.2
