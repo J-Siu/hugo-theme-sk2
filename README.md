@@ -5,9 +5,9 @@ Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-
 ---
 
 ### Table Of Content
+
 <!-- TOC -->
 
-- [Table Of Content](#table-of-content)
 - [SK Themes](#sk-themes)
 - [Demo](#demo)
 - [Usage](#usage)
@@ -17,42 +17,39 @@ Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-
 - [Default Favicon](#default-favicon)
 - [Contributors](#contributors)
 - [Change Log](#change-log)
-
 <!-- /TOC -->
 
 ### SK Themes
 
-Theme|GitHub|Hugo|Demo|Description
----|---|---|---|---
-SK1|[hugo-theme-sk1](//github.com/J-Siu/hugo-theme-sk1)|[SK1](//themes.gohugo.io/hugo-theme-sk1/)|[sk1.jsiu.dev](//sk1.jsiu.dev/)|Fully functional basic Hugo theme with no css, no javascript.
-SK2|[hugo-theme-sk2](//github.com/J-Siu/hugo-theme-sk2)|[SK2](//themes.gohugo.io/hugo-theme-sk2/)|[sk2.jsiu.dev](//sk2.jsiu.dev/)|Fully functional basic Hugo theme with minimum css.
-SK3|[hugo-theme-sk3](//github.com/J-Siu/hugo-theme-sk3)|[SK3](//themes.gohugo.io/hugo-theme-sk3/)|[sk3.jsiu.dev](//sk3.jsiu.dev/)|Full feature Hugo theme with Google AdSense support.
+| Theme | GitHub                                              | Hugo                                      | Demo                            | Description                                                   |
+| ----- | --------------------------------------------------- | ----------------------------------------- | ------------------------------- | ------------------------------------------------------------- |
+| SK1   | [hugo-theme-sk1](//github.com/J-Siu/hugo-theme-sk1) | [SK1](//themes.gohugo.io/hugo-theme-sk1/) | [sk1.jsiu.dev](//sk1.jsiu.dev/) | Fully functional basic Hugo theme with no css, no javascript. |
+| SK2   | [hugo-theme-sk2](//github.com/J-Siu/hugo-theme-sk2) | [SK2](//themes.gohugo.io/hugo-theme-sk2/) | [sk2.jsiu.dev](//sk2.jsiu.dev/) | Fully functional basic Hugo theme with minimum css.           |
+| SK3   | [hugo-theme-sk3](//github.com/J-Siu/hugo-theme-sk3) | [SK3](//themes.gohugo.io/hugo-theme-sk3/) | [sk3.jsiu.dev](//sk3.jsiu.dev/) | Full feature Hugo theme with Google AdSense support.          |
 
 ### Demo
 
-SK2 demo site: https://sk2.jsiu.dev/ with content from [hugoBasicExample](https://github.com/gohugoio/hugoBasicExample).
+SK2 demo site: https://sk2.jsiu.dev/ with content from [hugoBasicExample](https://github.com/J-Siu/hugoBasicExample).
 
 ### Usage
 
 - Clone
 
-    In site directory:
+  In site directory:
 
-    ```sh
-    git clone https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
-    ```
+  ```sh
+  git clone https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
+  ```
 
 - Submodule
 
-    In site directory:
+  In site directory:
 
-    ```sh
-    git submodule add https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
-    ```
+  ```sh
+  git submodule add https://github.com/J-Siu/hugo-theme-sk2 themes/sk2
+  ```
 
 ### Testing
-
-In `exampleSite`:
 
 ```sh
 git clone https://github.com/J-Siu/hugo-theme-sk2 sk2
@@ -66,8 +63,7 @@ hugo server -D --bind :: \
 --disableFastRender \
 --theme sk2 \
 --themesDir ../../ \
---config config.toml,../config.demo.toml \
---verbose
+--config config.toml,../config.demo.toml
 ```
 
 ### Features
