@@ -1,6 +1,6 @@
 # Hugo Theme - SK2 (Skeleton 2) [![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=HZF49NM9D35SJ&no_recurring=0&currency_code=CAD)
 
-Fully functional basic Hugo theme with minimum css, build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
+Demo/Tutorial Hugo theme. Fully functional with minimum css, no javascript, build on top of [hugo-theme-sk1](https://github.com/J-Siu/hugo-theme-sk1).
 
 ---
 
@@ -138,3 +138,5 @@ cp <your favicon.ico> static/favicon.ico
   - Fix theme.toml
 - 1.0.5
   - Fix for Hugo submit
+- 1.0.6
+  - Update description
